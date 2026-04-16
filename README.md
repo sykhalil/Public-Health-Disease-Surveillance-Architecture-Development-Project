@@ -168,7 +168,7 @@ Architecture_Development_Part6/
 │   ├── Synthea_Patient_Data_Aggregation_Util_SuhaKhalil.ipynb
 │   └── SuhaKhalil_BonusAssignment.ipynb
 │
-│── hospital_data/
+│── hospital_data/ (Not added to Repository due to huge data size)
 │   ├── MGH/
 │   ├── PortageHealth/
 │   ├── BCMH/
@@ -180,7 +180,7 @@ Architecture_Development_Part6/
 │       ├── Condition.csv
 │       └── CarePlan.csv
 │
-│── outputs/
+│── Suha's Code outputs/
 │   ├── covid_final_clean.csv
 │   └── covid_dashboard.csv
 │
