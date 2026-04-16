@@ -82,6 +82,8 @@ Each hospital contained exported FHIR-based patient `.json` files representing r
 
 ## Step 1: Data Aggregation
 
+after -json files for patients from 4 hospitals were generated using synthea,
+
 Patient files from all hospitals were processed using Python scripts to extract structured healthcare data.
 
 Generated outputs included:
@@ -94,12 +96,12 @@ Generated outputs included:
 
 ## Step 2: COVID-19 Investigation
 
-COVID-related diagnosis codes were isolated and analyzed.
-
-Additional processed outputs:
+COVID-related diagnosis codes were isolated and analyzed. Data Frames were filtered for COVID, then merged to create :
 
 - covid_final_clean.csv  
-- covid_dashboard.csv  
+- covid_dashboard.csv
+
+files were used for EDA and insights.
 
 ## Step 3: Dashboard Reporting
 
